@@ -1,0 +1,98 @@
+$siteResolution: 1px;
+$mainFont: 'Manrope';
+$accentFont: 'EuropeExtendedC';
+$titleFont: 'PROJECT SPACE';
+$mainWeight: 400;
+$lineHeightMedium: 1.3;
+$lineHeightTitle: 1.22;
+$lineHeightDefault: $lineHeightMedium;
+
+$containerWidth: 1320rem;
+
+$radiusSm: 8rem;
+
+$whiteColor: #fff;
+$blackColor: #000;
+$navyBlue1Color: #000091;
+$navyBlue2Color: #141A7B;
+$navyBlue3Color: #0B0F6D;
+$navyBlue4Color: #000585;
+$darkBlue1Color: #4D5EFF;
+$darkBlue2Color: #2C2BDA;
+$darkBlue3Color: #0008BC;
+$darkBlue4Color: #3325BD;
+$darkBlue5Color: #3438A8;
+$blue1Color: #252EFF;
+$blue2Color: #0027A7;
+$blue3Color: #0040D0;
+$blue4Color: #5B61EF;
+$blue5Color: #3D4CE0;
+$blue6Color: #336BD3;
+$blue7Color: #2CACE3;
+$blue8Color: #5E73E5;
+$blue9Color: #3838FF;
+$lightBlue1Color: #2FB8FF;
+$lightBlue2Color: #8CB8FF;
+$lightBlue3Color: #51CEFE;
+$lightBlue4Color: #9FD1FF;
+$lightBlue5Color: #68D7FC;
+$lightBlue6Color: #6DCBFF;
+$lightBlue7Color: #7BFFFF;
+$lightBlue8Color: #63C2FD;
+
+$fontFamily: $mainFont, sans-serif;
+$fontColor: $blackColor;
+$fontWeight: $mainWeight;
+$accentColor: $blue4Color;
+
+$gradient1: linear-gradient(270deg, rgba($navyBlue3Color, .57) -3%, rgba($blue4Color, .52) 50%, rgba($darkBlue3Color, .52) 100%);
+$gradient2: linear-gradient(270deg, rgba($navyBlue3Color, 0) -3%, rgba($blue4Color, .22) 50%, rgba($darkBlue3Color, .22) 100%);
+$gradient3: linear-gradient(87deg, rgba($blue2Color, .67) 5.99%, rgba($darkBlue1Color, .36) 53.52%, rgba($blue3Color, .67) 95.45%);
+$gradient4: linear-gradient(270deg, $navyBlue3Color -2.93%, rgba($blue1Color, .59) 50.07%, rgba($navyBlue4Color, .74) 99.86%);
+$gradient5: linear-gradient(270deg, rgba($navyBlue3Color, 0) -2.93%, rgba($blue4Color, .22) 50.07%, rgba($darkBlue3Color, .22) 99.86%);
+$gradientText1: linear-gradient(91deg, $whiteColor .18%, rgba($whiteColor, .5) 48.81%, $whiteColor 89.1%);
+
+$transition: all .4s 0ms;
+
+$lg: 1199px;
+$lg-mf: $lg + 1;
+
+$md: 991px;
+$md-mf: $md + 1;
+
+$sm: 767px;
+$sm-mf: $sm + 1;
+
+$xs: 576px;
+$xs-mf: $xs;
+
+:root {
+  --fs-default: 14rem;
+  --fs-1: 50rem;
+  --fs-2: 40rem;
+  --fs-3: 24rem;
+  --fs-4: 22rem;
+  --fs-5: 20rem;
+  --fs-6: 18rem;
+  --fs-7: 16rem;
+  --offset: 15rem;
+  --offset-: 15rem;
+  --gap: 12rem;
+  --gap-: -12rem;
+  --gap-fluid: 20rem;
+  --gap-fluid-: -20rem;
+  @media (max-width: $md) {
+    --fs-1: 40rem;
+    --fs-2: 30rem;
+    --fs-3: 20rem;
+    --fs-4: 18rem;
+    --fs-5: 16rem;
+    --fs-6: 14rem;
+    --fs-7: 14rem;
+  }
+  @media (max-width: $sm) {
+    --fs-1: 26rem;
+    --fs-2: 22rem;
+    --fs-3: 18rem;
+  }
+}
