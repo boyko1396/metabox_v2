@@ -437,9 +437,13 @@
       font-family: $titleFont;
       letter-spacing: .2em;
       text-transform: uppercase;
+      @media (max-width: $sm) {
+        letter-spacing: .1em;
+      }
       @media (max-width: $xs) {
         margin-bottom: 32rem;
         font-size: 14rem;
+        letter-spacing: .05em;
       }
     }
     &-text {

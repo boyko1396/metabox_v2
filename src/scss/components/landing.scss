@@ -39,19 +39,21 @@
   }
   &__hero {
     &:after {
-      background: url(../images/ellipse.svg) 50% no-repeat;
-      background-size: contain;
-      width: 682rem;
-      height: 520rem;
-      content: '';
-      position: absolute;
-      left: 50%;
-      bottom: -260rem;
-      transform: translateX(-50%);
-      filter: blur(170rem);
-      pointer-events: none;
-      opacity: .71;
-      z-index: -1;
+      @media (min-width: $sm-mf) {
+        background: url(../images/ellipse.svg) 50% no-repeat;
+        background-size: contain;
+        width: 682rem;
+        height: 520rem;
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -260rem;
+        transform: translateX(-50%);
+        filter: blur(170rem);
+        pointer-events: none;
+        opacity: .71;
+        z-index: -1;
+      }
     }
     img {
       width: 100%;
@@ -747,6 +749,9 @@
   @media (max-width: $md) {
     padding: 60rem 0;
   }
+  @media (max-width: $xs) {
+    padding: 60rem 0 30rem;
+  }
   &__container {
     padding: 0 290rem;
     position: relative;
@@ -770,7 +775,7 @@
     }
     @media (max-width: $sm) {
       width: 80rem;
-      margin-top: -30rem;
+      margin-top: -50rem;
     }
     img {
       width: 100%;
